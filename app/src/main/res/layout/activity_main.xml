@@ -83,12 +83,16 @@
         android:id="@+id/textView4"
         android:layout_width="108dp"
         android:layout_height="74dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="150dp"
         android:text="@string/result"
         android:textAlignment="center"
         android:textSize="34sp"
         android:textStyle="bold"
         android:visibility="invisible"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="328dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
